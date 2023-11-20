@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+.translated{
+  width: 50%;
+  margin-top: 20px;
+  margin-left: 25%;
+  border: #282c34 1px solid;
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: solid;
+  text-transform: unset;
+  text-overflow: clip;
+  text-size-adjust: 20px;
+}
