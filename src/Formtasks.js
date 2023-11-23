@@ -38,7 +38,7 @@ export default function Formtasks({}) {
         </form>
       <ul>
         {
-          tasks.map((e)=>{ return <li key={e.id} className="list-group-item list-group-item-dark"> <Tasks deleteT={()=>supTask(e.id)} txt={e.nom} modifier={()=>modTask(e)}/> </li>})
+          tasks.map((e)=>{ return <li key={e.id} className="list-group-item list-group-item-light"> <Tasks deleteT={()=>supTask(e.id)} txt={e.nom} modifier={()=>modTask(e)}/> </li>})
         }
       </ul>
     </div>
