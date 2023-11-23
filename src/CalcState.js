@@ -46,7 +46,7 @@ setExp(newval);
       <input onClick={(e)=>tapecar(e)} type="button" className='m-3 btn btn-secondary' value="*" />
       <br />
       <input onClick={(e)=>tapecar(e)} type="button" className='m-3 btn btn-secondary' value="/" />
-      <input onClick={(e)=>tapecar(e)} type="button" value="*" className='m-3 btn btn-secondary' />
+      <input onClick={(e)=>tapecar(e)} type="button" value="0" className='m-3 btn btn-secondary' />
       <input onClick={clear} type="button" value="C" className='m-3 btn btn-danger'/>
       <input onClick={result} type="button" value="=" className='m-3 btn btn-success' />
       <br />
